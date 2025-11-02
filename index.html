@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Venture Craft 2025 | Oriental College of Technology, Bhopal</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Arial, sans-serif;
+      margin: 0;
+      background: #f9f9f9;
+      color: #222;
+      overflow-x: hidden;
+    }
+    header {
+      background: #243363;
+      color:#fff;
+      padding: 2rem 0 1.5rem 0;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 999;
+      box-shadow: 0 2px 8px #0003;
+      animation: slideDown 1s ease forwards;
+    }
+    nav {
+      background: #18204a;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    nav a {
+      color: #fff;
+      padding: 1rem 1.5rem;
+      text-decoration: none;
+      font-weight: 500;
+      transition: background-color 0.3s, transform 0.3s;
+      cursor: pointer;
+    }
+    nav a.hover, nav a.active {
+      background: #394492
+      transform :scale(1.05);
+    }
+    section {
+      max-width: 950px;
+      margin: 2rem auto;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px #0002;
+      padding: 2rem;
+      opacity: 0;
+      transform: translateY(30px);
+      transition: opacity 0.8s ease, transform 0.8s ease;
+    }
+    section.visible {
+      opacity: 1;
+      transform: translateY(0);
+      background:#18204a;
+      color:#fff;
+    }
+    h2 {
+      color: #fff;
+      border-bottom: 2px solid #eee;
+      padding-bottom: 0.3rem;
+      position: relative;
+      animation: fadeInScale 1s ease forwards;
+      transform-origin: left center;
+    }
+    .sponsor-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1rem 0;
+    }
+    .sponsor-table th,
+    .sponsor-table td {
+      border: 1px solid #ccc;
+      padding: 0.85rem 0.5rem;
+      text-align: left;
+    }
+    .sponsor-table th {
+      background: #e4e9f7;
+    }
+    .contact-list li {
+      margin-bottom: 0.6rem;
+    }
+    .cta {
+      background: #18204a;
+      border-left: 4px solid #000000;
+       padding: 1rem 1.5rem;
+      margin: 1.5rem 0;
+      border-radius: 6px;
+      animation: drakerBackground 3s ease infinite alternate;
+    }
+    mark{
+      background-color: #fff;
+      color:#00000;
+
+    }
+    /* Animations */
+    @keyframes slideDown {
+      from {
+        opacity: 0;
+        transform: translateY(-50px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    @keyframes fadeInScale {
+      from {
+        opacity: 0;
+        transform: scale(0.8);
+      }
+      to {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
+    @keyframes lightenBackground {
+      0% {
+        background-color: #f6f7ff;
+      }
+      100% {
+        background-color: #e0e4f9;
+      }
+    }
+    /* Smooth scrolling */
+    html {
+      scroll-behavior: smooth;
+    }
+
+    /* Button styles */
+    button.scroll-top {
+      position: fixed;
+      bottom: 30px;
+      right: 30px;
+      background: #243363;
+      color: white;
+      border: none;
+      padding: 0.75rem 1rem;
+      border-radius: 50%;
+      font-size: 1.5rem;
+      cursor: pointer;
+      box-shadow: 0 2px 8px #0006;
+      display: none;
+      transition: background-color 0.3s ease;
+      z-index: 1000;
+    }
+    button.scroll-top:hover {
+      background-color: #394492;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Venture Craft 2025</h1>
+    <div>Oriental Institute of Science & Technology, Bhopal (M.P.)</div>
+    <div>Balancing Innovation and Entrepreneurship</div>
+  </header>
+  <nav id="navbar">
+    <a href="#overview" class="active">Overview</a>
+    <a href="#about">About Us</a>
+    <a href="#event-details">Event Details</a>
+    <a href="#sponsorship">Sponsorship</a>
+    <a href="#registration">Registration</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="overview" class="visible">
+    <h2>Our Vision</h2>
+    <p>
+      Venture Craft 2025 is the flagship entrepreneurial event of Oriental College of Technology, Bhopal. It is designed to ignite innovation, creativity, and startup culture among students. The event provides a platform for budding entrepreneurs to present their ideas, compete, and gain recognition from industry experts.
+    </p>
+    <div class="cta">
+      <strong>Anticipated Participation:</strong>
+      <ul>
+        <li>700–800 student participants (teams and individuals)</li>
+        <li>7000+ audience (students, faculty, professionals, and guests) from multiple colleges across the region</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>
+      VentureCraft is not just an event; it’s a platform where ideas take shape, innovations find direction, and aspiring entrepreneurs turn dreams into reality.
+    </p>
+    <p>
+      With the vision of inspiring creativity and cultivating an entrepreneurial mindset, VentureCraft brings together students, innovators, and changemakers who dare to think differently. The event celebrates the spirit of entrepreneurship, offering participants the opportunity to present their startup ideas, pitch to experts, and showcase their ability to solve real-world challenges through innovation.
+    </p>
+    <p>
+      This year’s theme, “Igniting the Entrepreneur Within,” focuses on empowering young minds to explore the limitless world of startups from identifying opportunities to crafting business models that make an impact.
+    </p>
+    <p>
+      Through engaging sessions, interactive discussions, and idea presentations, VentureCraft creates an environment where learning meets leadership and imagination meets execution.
+    </p>
+    <p>
+      Whether you’re a budding entrepreneur with a game-changing idea or someone curious to understand the world of startups, VentureCraft is your stage. It’s where collaboration thrives, creativity flows, and visions turn into ventures.
+    </p>
+    <p>
+      Join us on 27th & 28th November as we embark on this exciting journey of ideas, innovation, and inspiration because the future belongs to those who craft it.
+    </p>
+  </section>
+
+  <section id="event-details">
+    <h2>Event Details</h2>
+    <ul>
+      <li><strong>Event Dates:</strong> 27–28 November 2025</li>
+      <li><strong>Venue:</strong> OIST Campus, Bhopal</li>
+    </ul>
+    <p>Join us to be part of the innovation of the future!</p>
+  </section>
+
+  <section id="sponsorship">
+    <h2>Sponsorship Opportunities</h2>
+    <p>As a sponsor at Venture Craft 2025, you will:</p>
+    <ul>
+      <li>Gain <strong>Brand Visibility</strong> – Your brand will be showcased to a crowd of over 7000 students, professionals, and faculties.</li>
+      <li>Target <strong>Young Innovators</strong> – Direct connect with aspiring entrepreneurs and future leaders.</li>
+      <li>Benefit from <strong>Media &amp; Social Media Reach</strong> – Wide promotion through posters, banners, event campaigns, and digital platforms.</li>
+      <li>Support <strong>Youth Empowerment</strong> – Opportunity to back student innovation and skill development.</li>
+    </ul>
+    <h3>Sponsorship Packages</h3>
+    <table class="sponsor-table">
+      <tr>
+        <th>Package</th>
+        <th>Amount (₹)</th>
+        <th>Benefits</th>
+      </tr>
+      <tr>
+        <td>Title Sponsor</td>
+        <td>50,000+</td>
+        <td>
+          "Venture Craft 2025 powered by [Your Brand]";<br />
+          Prime logo placement on stage, banners, certificates, and all communication;<br />
+          Mention in all media promotions and press releases;<br />
+          Speaking opportunity at inauguration/closing ceremony
+        </td>
+      </tr>
+      <tr>
+        <td>Gold Sponsor</td>
+        <td>35,000</td>
+        <td>
+          Logo placement on stage backdrop and certificates;<br />
+          Social media promotion and featured mention in event announcements
+        </td>
+      </tr>
+      <tr>
+        <td>Silver Sponsor</td>
+        <td>20,000</td>
+        <td>
+          Logo placement on event posters, banners, and certificates;<br />
+          Social media acknowledgment
+        </td>
+      </tr>
+      <tr>
+        <td>Associate/Bronze Sponsor</td>
+        <td>10,000</td>
+        <td>
+          Logo on selected event material;<br />
+          Mention in social media promotions
+        </td>
+      </tr>
+    </table>
+    <div class="cta">
+      <strong>Custom sponsorships</strong> (e.g., prize or tech support sponsorship) are also welcome!
+    </div>
+  </section>
+
+  <section id="registration">
+    <h2>Registration</h2>
+    <p>Registration fee per team (4 members): <strong>₹300</strong></p><p>You can register this link-<a href="https://docs.google.com/forms/d/e/1FAIpQLSdQI0I0iKqdD9LwV-kny3pKU-9s1WArg8s4DqZqkakQBAjUjw/viewform"><mark>Register</mark></a></p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <ul class="contact-list">
+      <li><strong>Phone:</strong> +91 9301732087</li>
+      <li><strong>Alternate Phone:</strong> +91 9522614165,+91 6206139985</li>
+      <li><strong>Email:</strong> venturecraft2025@gmail.com</li>
+      <li><strong>Address:</strong> OGI Campus, Bhopal, M.P.</li>
+    </ul>
+  </section>
+
+  <button class="scroll-top" id="scrollTopBtn" aria-label="Scroll to top">&#8679;</button>
+
+  <script>
+    // Scroll reveal animation for sections
+    const sections = document.querySelectorAll("section");
+
+    const revealOnScroll = () => {
+      const triggerBottom = window.innerHeight * 0.85; // 85% viewport height
+      sections.forEach(section => {
+        const sectionTop = section.getBoundingClientRect().top;
+        if (sectionTop < triggerBottom) {
+          section.classList.add("visible");
+        }
+      });
+    };
+
+    window.addEventListener("scroll", revealOnScroll);
+    window.addEventListener("load", revealOnScroll);
+
+    // Scroll to top button functionality
+    const scrollTopBtn = document.getElementById("scrollTopBtn");
+    window.addEventListener("scroll", () => {
+      if (window.pageYOffset > 300) {
+        scrollTopBtn.style.display = "block";
+      } else {
+        scrollTopBtn.style.display = "none";
+      }
+    });
+    scrollTopBtn.addEventListener("click", () => {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+
+    // Highlight nav links on scroll
+    const navLinks = document.querySelectorAll("nav a");
+    const sectionsArray = [...sections];
+
+    const highlightNav = () => {
+      let scrollPosition = window.scrollY + 150; // offset for header height
+      sectionsArray.forEach((sec, index) => {
+        if (
+          scrollPosition >= sec.offsetTop &&
+          scrollPosition < sec.offsetTop + sec.offsetHeight
+        ) {
+          navLinks.forEach(link => link.classList.remove("active"));
+          navLinks[index].classList.add("active");
+        }
+      });
+    };
+
+    window.addEventListener("scroll", highlightNav);
+    window.addEventListener("load", highlightNav);
+  </script>
+</body>
+</html>
